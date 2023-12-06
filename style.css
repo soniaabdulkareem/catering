@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Start of Header */
+
+.hero header{
+    background-color: rgb(125, 110, 110);
+    height: 50px;
+    width: 1100px;
+    position: fixed;
+    
+    
+    
+    
+}
+
+.hero header h3{
+    float: left;
+    padding: 12px 16px;
+}
+
+.hero header h3 a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+    font-size: smaller;
+    font-weight: 2px;
+}
+
+.hero header ul{
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.hero header ul li{
+    display: inline-block;
+    padding: 16px 10px;
+}
+
+.hero header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero header ul li a:hover{
+    background-color: rgb(232, 217, 217);
+    padding: 4px 6px;
+}
+/* End of Header */
+
+/* Start of Home */
+.hero .banner{
+    background-image: url(img/hamburger.jpg)  ;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 600px;
+    
+    
+}
+
+.hero .banner p{
+    font-size: 40px;
+    color:grey;
+    opacity: 07;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    letter-spacing: 3px;
+}
+
+.About img{
+    float: left;
+    border-radius: 10px;
+    margin: 20px 80px 40px 40px;
+    padding-top: 60px;
+    height: 550px;
+    width: 550px;
+
+}
+.about h2{ 
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    
+    
+}
+.about h4{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: large;
+    
+    
+}
+.about .top{
+    color: darkgrey;
+    padding-bottom: 270px;
+}
+.about p span{
+    background-color: darkgray;
+    padding: 2px 8px;
+}
+.about p{
+    line-height: 30px;
+}
+ .hr{
+    margin-bottom: 100px;
+    margin-top: 0%;
+}
+ 
+.feel img{
+    float: right;
+    width: 600px;
+    height: 650px;
+    border-radius: 3px;
+}
+.feel h1{
+    text-align: center;
+    padding: 20px;
+}
+.feel h4{
+    padding: 20px;
+    letter-spacing: 5px;
+    
+}
+.feel p{
+    color: darkgrey;
+    padding: 12px 24px;
+    font-size: 15px;
+}
+.dot {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.top footer{
+    float: left;
+}
+.top h1{
+padding-top: 50px;
+padding-bottom: 40px;
+margin-left: 20px;
+}
+.top h4{
+    color: rgb(146, 132, 238);
+    font-size: larger;
+    margin-left: 20px;
+}
+.top p{
+    margin-left: 20px;
+}
+input{
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+}
+
+
+button{
+    padding: 12px 12px 12px 12px;
+    border: none;
+    background-color:rgb(170, 125, 125) ;
+    margin-top: 50px;
+    text-transform: uppercase;
+    width: 250px;
+
+}
+button:hover{
+    background-color: darkgrey;
+}
+@mediascreen and (min-width=850){
+  
+    
+}
+    
+}
